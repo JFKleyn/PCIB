@@ -36,7 +36,7 @@ export function Header() {
   return (
     <>
       <div className={`header ${scrolled ? "scrolled" : ""}`}>
-        <img src={Logo} alt="Logo" className="logo" />
+        <img src={logo} alt="Logo" className="logo" />
         <div className="navigation">
           <NavLink
             to="/"
