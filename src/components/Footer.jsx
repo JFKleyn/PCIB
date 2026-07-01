@@ -1,5 +1,6 @@
 import { Link, NavLink } from "react-router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import logo from "../assets/Logo.png";
 import {
   faFacebook,
   faInstagram,
@@ -19,8 +20,8 @@ export function Footer() {
       <div className="footer">
         <div className="footer-container">
           <div className="footer-content2">
-            {/* <img src={Logo} alt="Logo2" className="logo" /> */}
-            <p>KZN’s leading solution provider for precision manufacturing.</p>
+            <img src={logo} alt="Logo2" className="logo" />
+            <p>Protecting what matters most with trusted, tailored insurance solutions.</p>
             <div className="social-icons">
               <a href="https://www.facebook.com/MylesCrosthwaiteServices" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon className="icon" icon={faFacebook} />
@@ -44,47 +45,32 @@ export function Footer() {
             </div>
           </div>
           <div className="footer-content">
-            <h4>NEW MACHINES</h4>
-            <a href="https://www.wdhearn.co.za/product/cnc-controls">CNC Machines</a>
-            <a href="https://www.wdhearn.co.za/products">Fabrication</a>
-            <a href="https://www.wdhearn.co.za/product/conventional-toolroom-equipment">Conventional Machines</a>
-            <a href="https://www.wdhearn.co.za/products">Specialized Machines</a>
-            <a href="https://www.wdhearn.co.za/products">Measuring & Inspection</a>
-            <a href="https://www.wdhearn.co.za/product/grinding">Grinding & Finishing</a>
+            <h4>Quick Links</h4>
+            <Link to={"/about"}>About Us</Link>
+            <Link to={"/services"}>Services</Link>
+            <Link to={"/compliance"}>Compliance</Link>
+            <Link to={"/contact"}>Contact</Link>
           </div>
           <div className="footer-content">
-            <h4>USED MACHINES</h4>
-            <Link to={"/machine-listing"}>CNC Machines</Link>
-            <Link to={"/machine-listing"}>Fabrication</Link>
-            <Link to={"/machine-listing"}>Conventional Machines</Link>
-            <Link to={"/machine-listing"}>Specialized Machines</Link>
-          </div>
-          <div className="footer-content">
-            <h4>NICHE TOOLING</h4>
-            <Link to={"/tools"}>Cutting & Machining</Link>
-            <Link to={"/tools"}>Tool & Work Holding</Link>
-            <Link to={"/tools"}>CNC Support</Link>
-          </div>
-          <div className="footer-content">
-            <h4>CONTACT</h4>
+            <h4>Contact</h4>
             <div className="contact-item">
               <FontAwesomeIcon className="icon" icon={faPhone} />
-              <span>+27 83 268 4232</span>
+              <span>+27 82 877 7042</span>
             </div>
             <div className="contact-item">
               <FontAwesomeIcon className="icon" icon={faEnvelope} />
-              <span>myles@usedmachinetools.co.za</span>
+              <span>james@peterchristieins.co.za</span>
             </div>
             <div className="contact-item">
               <FontAwesomeIcon className="icon" icon={faLocationDot} />
-              <span>4 Reed Place, Marlmead, Pinetown, 3610</span>
+              <span>10 Sookhai Pl, Westville, 8870</span>
             </div>
           </div>
         </div>
         <div className="copy">
           <div className="company">
             <small>
-              © 2026 Myles Crosthwaite Sales and Services CC | All right
+              © 2026 Peter Christie Insurance Brokers (Pty) Ltd | All right
               reserved
             </small>
           </div>

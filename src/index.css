@@ -54,7 +54,7 @@ a {
 }
 
 a:hover {
-  color: #D12126;
+  color: #2056AE;
 }
 
 .logo{
@@ -63,11 +63,11 @@ a:hover {
 
 button{
   cursor: pointer;
-  border: 1px solid #D12126;
+  border: 1px solid #2056AE;
   background: none;
   font-size: clamp(0.8rem, 1.2vw, 1rem);
   color: rgb(255, 255, 255);  
-  background-color: #D12126;
+  background-color: #2056AE;
   padding: 10px;
   border-radius: 4px;
   transition: all 0.3s ease;
@@ -80,7 +80,7 @@ button:hover{
 }
 
 .FontawesomeIcon{
-  color: #D12126;
+  color: #2056AE;
   height: 25px;
   width: 25px;
   right: 0;
@@ -90,7 +90,7 @@ button:hover{
 .section-header{
   display: flex;
   flex-direction: column;
-  border-left: 5px solid #D12126;
+  border-left: 5px solid #2056AE;
   padding-left: 20px;
 }
 

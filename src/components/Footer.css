@@ -3,7 +3,7 @@
 }
 
 .icon{
-  color: #D12126;
+  color: #2056AE;
   height: 24px;
   width: 24px;
   transition: all 0.3s ease;
@@ -22,7 +22,7 @@
 
 .footer-content h4{
   margin-bottom: 10px;
-  color: #D12126;
+  color: #2056AE;
 }
 
 .footer-content p{
@@ -38,6 +38,7 @@
 
 .footer-content2 p{
   text-align: left;
+  max-width: 400px;
 }
 
 .footer-content{
@@ -109,14 +110,6 @@
 
   .footer-container{
     grid-template-columns: 1fr 1fr 1fr;
-  }
-
-}
-
-@media (min-width: 1440px){
-
-  .footer-container{
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 
 }
