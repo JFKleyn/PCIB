@@ -1,0 +1,73 @@
+.footer2-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2056AE;
+  padding: 80px 60px;
+  gap: 30px;
+}
+
+.footer2-section h2{
+  color: white;
+  text-align: center;
+}
+
+.footer2-section p{
+  color: white;
+  font-weight: 200;
+  max-width: 500px;
+}
+
+.footer2-buttons{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.footer2-buttons button{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.footer2-btn1{
+  background-color: white;
+  color: #2056AE;
+  font-weight: 500;
+  padding: 18px;
+}
+
+.footer2-btn1:hover{
+  background: none;
+  border: 1px solid white;
+  color: white;
+}
+
+.footer2-contact{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.footer2-contact-item{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+
+@media (min-width: 1440px){
+  .footer2-section p{
+    max-width: 700px;
+  }
+
+  .footer2-section{
+    gap: 40px;
+  }
+
+  .footer2-btn1{
+    max-width: 400px;
+  }
+}

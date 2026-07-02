@@ -1,4 +1,5 @@
 import { Footer } from "../../components/Footer";
+import { Footer2 } from "./Footer2";
 import { HomeHero } from "./HomeHero";
 import "./HomePage.css";
 import { HomeQuestions } from "./HomeQuestions";
@@ -12,6 +13,7 @@ export function HomePage() {
       <WhyChooseUs />
       <HomeServices />
       <HomeQuestions />
+      <Footer2 />
       <Footer />
     </>
   );

@@ -83,9 +83,6 @@ export function Header() {
           <Link to="/contact">
             <button>GET A QUOTE</button>
           </Link>
-          <Link to="/login">
-            <button className="admin-button">ADMIN LOGIN</button>
-          </Link>
         </div>
         <FontAwesomeIcon
           icon={faBars}
