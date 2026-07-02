@@ -26,14 +26,17 @@ h1{
 
 h2{
   font-size: clamp(1.8rem, 3vw, 2.8rem);
+  color: #06266C;
 }
 
 h3{
   font-size: clamp(1.6rem, 2.4vw, 2rem);
+  color: #06266C;
 }
 
 h4{
   font-size: clamp(1.3rem, 1.8vw, 1.8rem);
+  color: #06266C;
 }
 
 h5{
@@ -44,7 +47,7 @@ h5{
 p{
   font-size: clamp(1rem, 1.2vw, 1.4rem);
   text-align: center;
-  color: #434343;
+  color: #06266C;
 }
 
 a {
@@ -88,14 +91,15 @@ button:hover{
 }
 
 .section-header{
-  display: flex;
-  flex-direction: column;
-  border-left: 5px solid #2056AE;
-  padding-left: 20px;
+  text-align: center;
 }
 
-.section-header p{
-  text-align: left;
+.header-line {
+  width: 60px;
+  height: 4px;
+  background-color: #06266C;
+  margin: 12px auto 0;
+  border-radius: 10px;
 }
 
 .fade-up {
@@ -109,4 +113,18 @@ button:hover{
 .fade-up.show {
   opacity: 1;
   transform: translateY(0);
+}
+
+section{
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-color: #EEEEFF;
+}
+
+@media (min-width: 1024px){
+  section{
+    padding: 60px 80px;
+  }
 }

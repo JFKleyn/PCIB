@@ -1,0 +1,58 @@
+.svg-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  background-color: #2056ae42;
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+}
+
+.why-icon{
+  height: 34px;
+  width: 34px;
+}
+
+.why-choose-us-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+
+.why-choose-us-item{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: white;
+  border-radius: 10px;
+  border-bottom: 3px solid #06266C;
+  box-shadow: 0 6px 10px rgb(0, 0, 0, 0.2);
+  padding: 30px;
+  max-width: 330px;
+  transition: all 0.3s ease;
+}
+
+.why-choose-us-item:hover{
+  cursor: pointer;
+  scale: 1.02;
+}
+
+.why-choose-us-item p{
+  text-align: left;
+}
+
+@media (min-width: 1024px) {
+  .why-choose-us-content{
+  flex-direction: row;
+  justify-content:space-evenly;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+
+.why-choose-us-item{
+  max-width: 360px;
+}
+}
