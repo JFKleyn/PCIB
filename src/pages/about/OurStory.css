@@ -1,0 +1,36 @@
+.our-story-container{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  
+}
+
+.our-story-text p{
+  text-align: left;
+}
+
+
+.our-story-image{
+  border-radius: 10px;
+  width: 100%;
+  height: 400px;
+}
+
+@media (min-width: 1024px){
+  .our-story-container{
+   flex-direction: row;
+   align-items:center;
+   gap: 160px;
+  }
+
+  .our-story-image{
+    width: auto;
+  height: 400px;
+}
+}
+
+@media (min-width: 1024px){
+  .our-story-image{
+  height: 500px;
+}
+}
