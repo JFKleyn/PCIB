@@ -1,0 +1,99 @@
+.section-header2 p{
+  text-align: left;
+}
+
+.section-header2{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.home-services-container{
+  display: grid;
+  gap: 40px;
+}
+
+.home-services-container2{
+  display: grid;
+  gap: 40px;
+}
+
+.arrow-icon{
+  width: 12px;
+}
+
+.services-sub{
+  display: flex;
+  justify-content: space-between;
+}
+
+.services-sub a{
+  display: none;
+}
+
+.home-service{
+  min-height: 280px;
+  padding: 30px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 6px 10px rgb(0, 0, 0, 0.2);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.home-service-content{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: static;
+  transform: none;
+}
+
+.home-service h4{
+  color: white;
+}
+
+.home-service p{
+  color: rgb(202, 202, 202);
+  text-align: left;
+  max-width: 600px;
+}
+
+.home-service button{
+  background-color: rgba(255, 255, 255, 0.16);
+  border: 1px solid rgb(202, 202, 202);
+  padding: 10px 20px;
+}
+
+.services-sub a{
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .services-sub a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .home-service{
+    min-height: 500px;
+  }
+
+  .home-services-container{
+    grid-template-columns: 2.1fr 1fr;
+    gap: 60px;
+  }
+
+  .home-services-container2{
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+  }
+
+  .alt{
+    gap: 60px;
+  }
+}

@@ -54,10 +54,12 @@ a {
   text-decoration: none;
   color: inherit;
   transition: color 0.3s ease;
+  color: #06266C;
 }
 
 a:hover {
   color: #2056AE;
+  fill: #2056AE;
 }
 
 .logo{
@@ -116,11 +118,15 @@ button:hover{
 }
 
 section{
-  padding: 40px 20px;
+  padding: 40px 20px 80px 20px;
   display: flex;
   flex-direction: column;
   gap: 40px;
   background-color: #EEEEFF;
+}
+
+.alt{
+  background-color: #ffffff;
 }
 
 @media (min-width: 1024px){
