@@ -129,6 +129,12 @@ section{
   background-color: #ffffff;
 }
 
+.faq-question:hover{
+  background-color: white;
+  scale: none;
+  border: none;
+}
+
 @media (min-width: 1024px){
   section{
     padding: 60px 80px;
