@@ -2,12 +2,34 @@
   height: 100vh;
   position: relative;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   overflow: hidden;
   padding: 20px;
   background-color: black;
+}
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transform: scale(1);
+  transition: opacity 1.5s ease-in-out, transform 6s ease;
+}
+
+.hero-bg.active {
+  opacity: 1;
+  transform: scale(1.04);
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
 }
 
 .hero-header h1{
@@ -27,6 +49,8 @@
 }
 
 .hero-header{
+  position: relative;
+  z-index: 2;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -112,6 +136,7 @@
   transform: translateY(30px);
   animation: fadeUp 0.7s ease forwards;
   animation-delay: 0.5s;
+  max-width: 800px;
 }
 
 .hero-buttons {

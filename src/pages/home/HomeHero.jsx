@@ -1,32 +1,77 @@
+import { useEffect, useState } from "react";
 import { Header } from "../../components/Header";
-import { Link, NavLink } from "react-router";
+import { Link } from "react-router";
 import logoWhite from "../../assets/LogoWhite.png";
-import './HomeHero.css'
 
-export function HomeHero(){
-  return(
+import hero1 from "../../assets/Hero1.png";
+import hero2 from "../../assets/Hero2.png";
+import hero3 from "../../assets/Hero3.png";
+import hero4 from "../../assets/Hero4.png";
+import hero5 from "../../assets/Hero 5.png";
+import hero6 from "../../assets/Hero6.png";
+
+import "./HomeHero.css";
+
+const heroImages = [hero1, hero2, hero3, hero4, hero5, hero6];
+
+export function HomeHero() {
+  const [currentImage, setCurrentImage] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImage((prev) =>
+        prev === heroImages.length - 1 ? 0 : prev + 1
+      );
+    }, 5000);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  return (
     <>
-    <Header />
-    <div className="hero">
-      <div className="hero-header">
-        <img src={logoWhite} alt="Logo" className="logoWhite hero-line" />
-        <h1 className="hero-line">
-          EXPERT INSURANCE <br /><span> GUIDANCE SIMPLIFIED
-          </span>
-        </h1>
-        <p className="hero-line">
-          At Peter Christie Insurance Brokers, we act as the vital bridge between you and the complex world of insurance. We handle the paperwork, the negotiations, and the fine print so you can focus on what matters most.
-        </p>
-        <div className="hero-buttons">
+      <Header />
+
+      <div className="hero">
+        {heroImages.map((image, index) => (
+          <div
+            key={index}
+            className={`hero-bg ${index === currentImage ? "active" : ""}`}
+            style={{ backgroundImage: `url(${image})` }}
+          ></div>
+        ))}
+
+        <div className="hero-overlay"></div>
+
+        <div className="hero-header">
+          <img src={logoWhite} alt="Logo" className="logoWhite hero-line" />
+
+          <h1 className="hero-line">
+            EXPERT INSURANCE <br />
+            <span>GUIDANCE SIMPLIFIED</span>
+          </h1>
+
+          <p className="hero-line">
+            At Peter Christie Insurance Brokers, we act as the vital bridge
+            between you and the complex world of insurance. We handle the
+            paperwork, the negotiations, and the fine print so you can focus on
+            what matters most.
+          </p>
+
+          <div className="hero-buttons">
             <Link to="/contact">
-              <button><p>Business Insurance</p></button>
+              <button>
+                <p>Business Insurance</p>
+              </button>
             </Link>
+
             <Link to="/machine-listing">
-              <button className="product-button"><p>Personal Insurance</p></button>
+              <button className="product-button">
+                <p>Personal Insurance</p>
+              </button>
             </Link>
+          </div>
         </div>
       </div>
-    </div>
     </>
-  )
+  );
 }

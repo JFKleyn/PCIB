@@ -46,7 +46,7 @@ export function Footer() {
           </div>
           <div className="footer-content">
             <h4>Quick Links</h4>
-            <Link to={"/about"}>About Us</Link>
+            <Link to={"/about"}>About</Link>
             <Link to={"/services"}>Services</Link>
             <Link to={"/compliance"}>Compliance</Link>
             <Link to={"/contact"}>Contact</Link>
