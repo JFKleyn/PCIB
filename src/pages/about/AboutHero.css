@@ -1,0 +1,10 @@
+.hero-others {
+  height: 60vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 20px 20px 0 20px;
+  background-color: black;
+}
