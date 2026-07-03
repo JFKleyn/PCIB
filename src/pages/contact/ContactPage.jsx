@@ -44,7 +44,7 @@ export function ContactPage() {
         <div className="section-header">
           <p>CONTACT US</p>
           <h1>GET IN TOUCH</h1>
-          <div className="header-line"></div>
+          <div className="header-line differently"></div>
         </div>
         <div className="contact-bodyy">
           <ContactForm />
