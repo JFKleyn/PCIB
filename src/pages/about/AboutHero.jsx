@@ -44,7 +44,7 @@ export function AboutHero() {
         <div className="hero-header">
 
           <h1 className="hero-line">
-            Four Decades of <span>Trusted Protection </span>
+            Four Decades of <span> Trusted Protection </span>
           </h1>
 
           <p className="hero-line">
