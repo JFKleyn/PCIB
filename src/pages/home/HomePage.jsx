@@ -9,8 +9,8 @@ export function HomePage() {
   return (
     <>
       <HomeHero />
-      <WhyChooseUs />
       <HomeServices />
+      <WhyChooseUs />
       <HomeQuestions />
       <Footer2 />
       <Footer />
