@@ -3,42 +3,11 @@ import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
 import { PhoneIcon, EmailIcon, ClockIcon2 } from "../../components/SVGIcons";
 import { FadeIn } from "../../components/FadeIn";
-import { Helmet } from "react-helmet-async";
 import "./ContactPage.css";
 
 export function ContactPage() {
   return (
     <>
-      <Helmet>
-        <title>Contact MCSS | Machine Tool Solutions in KwaZulu-Natal</title>
-
-        <meta
-          name="description"
-          content="Contact MCSS for machine tools, CNC machinery, used machines, tooling, servicing, training and turnkey engineering solutions throughout KwaZulu-Natal and South Africa."
-        />
-
-        <meta
-          name="keywords"
-          content="contact MCSS, machine tools KZN, CNC machines South Africa, used machine tools, machine tooling, machine servicing, engineering support KwaZulu-Natal"
-        />
-
-        <meta
-          property="og:title"
-          content="Contact MCSS | Machine Tool Solutions"
-        />
-
-        <meta
-          property="og:description"
-          content="Get in touch with MCSS for machine tools, CNC machinery, tooling, servicing and engineering support across South Africa."
-        />
-
-        <meta property="og:type" content="website" />
-
-        <meta
-          property="og:url"
-          content="https://www.yourdomain.co.za/contact"
-        />
-      </Helmet>
       <Header />
       <div className="contact-section contact-page">
         <div className="section-header">
@@ -56,7 +25,7 @@ export function ContactPage() {
                     <PhoneIcon />
                   </div>
                   <div className="contact-details-items">
-                    <p className="notbold">PHONE</p>
+                    <small className="notbold">PHONE</small>
                     <p className="bold">+27 82 877 7042</p>
                   </div>
                 </div>
@@ -65,7 +34,7 @@ export function ContactPage() {
                     <EmailIcon />
                   </div>
                   <div className="contact-details-items">
-                    <p className="notbold">EMAIL</p>
+                    <small className="notbold">EMAIL</small>
                     <p className="bold">james@peterchristieins.co.za</p>
                   </div>
                 </div>
@@ -74,7 +43,7 @@ export function ContactPage() {
                     <ClockIcon2 />
                   </div>
                   <div className="contact-details-items">
-                    <p className="notbold">BUSINESS HOURS</p>
+                    <small className="notbold">BUSINESS HOURS</small>
                     <p className="bold">Mon - Fri: 8:00 AM - 5:00 PM</p>
                   </div>
                 </div>

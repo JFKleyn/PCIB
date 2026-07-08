@@ -10,7 +10,7 @@ import hero6 from "../../assets/Hero6.png";
 
 const heroImages = [hero1, hero2, hero3, hero4, hero5, hero6];
 
-export function ServicesHero() {
+export function ComplianceHero() {
   const [currentImage, setCurrentImage] = useState(0);
 
   useEffect(() => {
@@ -41,11 +41,11 @@ export function ServicesHero() {
         <div className="hero-header">
 
           <h1 className="hero-line">
-            Expert Insurance <span> Solutions for Every Need. </span>
+            Compliance & <span> Regulatory Information</span>
           </h1>
 
           <p className="hero-line">
-            From business and personal insurance to specialized industry coverage, we provide tailored protection that grows with you. Explore our comprehensive range of services designed to safeguard what matters most.
+            Our commitment to transparency, fair treatment, and regulatory compliance. Access our policies, frameworks, and legal documentation.
           </p>
         </div>
       </div>
