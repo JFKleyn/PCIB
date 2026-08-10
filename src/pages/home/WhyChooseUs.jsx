@@ -12,6 +12,11 @@ export function WhyChooseUs() {
         <div className="why-choose-us-content">
           <div className="why-choose-us-item">
             <div className="svg-container">
+              {/* Long-Term Partenerships
+              Long standing industry experience
+              Professional claims management
+              proactive policy reviews
+               */}
               <ShieldIcon2 />
             </div>
             <h3>Hassle-Free Claims </h3>

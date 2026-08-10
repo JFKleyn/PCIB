@@ -14,6 +14,7 @@ export function ContactPage() {
           <p>CONTACT US</p>
           <h1>GET IN TOUCH</h1>
           <div className="header-line differently"></div>
+          {/* 031 266 8870 */}
         </div>
         <div className="contact-bodyy">
           <ContactForm />

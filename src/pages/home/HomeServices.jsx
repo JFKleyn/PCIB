@@ -52,10 +52,9 @@ export function HomeServices() {
             }}
           >
             <div className="home-service-content">
-            <h4>Cyber Risk</h4>
+            <h4>Cyber Risk & Commercial Crime</h4>
             <p>
-              Advanced digital asset protection against breaches and business
-              interruption.
+              Protection against cyber threats , fraud, and commercial crime.
             </p>
             <Link>
               <button>Learn More</button>
@@ -75,7 +74,7 @@ export function HomeServices() {
             }}
           >
             <div className="home-service-content">
-            <h4>Construction</h4>
+            <h4>Engineering</h4>
             <p>
               Foundational coverage for builders, developers, and specialized
               tradesmen.
@@ -95,9 +94,9 @@ export function HomeServices() {
             }}
           >
             <div className="home-service-content">
-            <h4>Marine & Shipping</h4>
+            <h4>Marine & Goods in Transit</h4>
             <p>
-              Global transit and cargo solutions for international freight and
+              Global transit and cargo solutions for international and local freight and
               logistics.
             </p>
             <Link>
@@ -116,10 +115,9 @@ export function HomeServices() {
           >
             <div className="home-service-content">
             
-            <h4>Domestic & Retail</h4>
+            <h4>Domestic</h4>
             <p>
-              Global transit and cargo solutions for international freight and
-              logistics.
+              Protecting your home, belongings, and valuables with tailored insurance solutions.
             </p>
             <Link>
               <button>Learn More</button>

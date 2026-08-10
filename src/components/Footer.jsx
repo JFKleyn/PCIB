@@ -55,7 +55,7 @@ export function Footer() {
             <h4>Contact</h4>
             <div className="contact-item">
               <FontAwesomeIcon className="icon" icon={faPhone} />
-              <span>+27 82 877 7042</span>
+              <span>+27 31 266 8870</span>
             </div>
             <div className="contact-item">
               <FontAwesomeIcon className="icon" icon={faEnvelope} />

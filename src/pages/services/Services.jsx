@@ -29,7 +29,7 @@ const services = [
   },
   {
     id: "cyber",
-    title: "Cyber",
+    title: "Cyber and Commercial Crime",
     image: "src/assets/CY.png",
     content: [
       "Unfortunately, it is an area of increasing risk with the number of incidents growing every year. There are a range of products available to protect against these exposures. However, no two policies are the same with considerable variances in policy cover. Our recommendation is to seek skilled advice in finding what is right for you.",
@@ -41,14 +41,6 @@ const services = [
     image: "src/assets/R.png",
     content: [
       "PCIB provide a complete range of retail insurance solutions for shops of all sizes, from small corner shops to large multi-site retailers. In the fast-moving world of retail, it is vital that your insurance keeps pace with your needs and business growth.",
-    ],
-  },
-  {
-    id: "management-liability",
-    title: "Management Liability",
-    image: "src/assets/ML.png",
-    content: [
-      "Management Liability Insurance not only provides protection for Directors and Owners of private companies, it also extends to provide coverage for the corporation under certain circumstances. This includes payment by an insurance company of any penalties and fines levied when a case is proved as well as payment of legal costs of defending a claim of alleged transgression.",
     ],
   },
   {

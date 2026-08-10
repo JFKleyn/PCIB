@@ -46,8 +46,8 @@ export function HomeHero() {
           <img src={logoWhite} alt="Logo" className="logoWhite hero-line" />
 
           <h1 className="hero-line">
-            EXPERT INSURANCE <br />
-            <span>GUIDANCE SIMPLIFIED</span>
+            TRUSTED ADVICE <br />
+            <span>LASTING PROTECTION</span>
           </h1>
 
           <p className="hero-line">
