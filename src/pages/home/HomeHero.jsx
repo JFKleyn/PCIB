@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
 import { Header } from "../../components/Header";
 import { Link } from "react-router";
-import logoWhite from "../../assets/LogoWhite.png";
+import logoWhite from "../../assets/LogoWhite.webp";
 
-import hero1 from "../../assets/Hero1.png";
-import hero2 from "../../assets/Hero2.png";
-import hero3 from "../../assets/Hero3.png";
-import hero4 from "../../assets/Hero4.png";
-import hero5 from "../../assets/Hero 5.png";
-import hero6 from "../../assets/Hero6.png";
+import hero1 from "../../assets/Hero1.webp";
+import hero2 from "../../assets/Hero2.webp";
+import hero3 from "../../assets/Hero3.webp";
+import hero4 from "../../assets/Hero4.webp";
+import hero5 from "../../assets/Hero 5.webp";
+import hero6 from "../../assets/Hero6.webp";
 
 import "./HomeHero.css";
 
@@ -58,7 +58,7 @@ export function HomeHero() {
           </p>
 
           <div className="hero-buttons">
-            <Link to="/services">
+            <Link to="/contact">
               <button>
                 <p>Book a Consultation</p>
               </button>

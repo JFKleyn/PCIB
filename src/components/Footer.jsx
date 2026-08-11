@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import logo from "../assets/Logo.png";
+import logo from "../assets/Logo.webp";
 import {
   faFacebook,
   faInstagram,
@@ -22,27 +22,6 @@ export function Footer() {
           <div className="footer-content2">
             <img src={logo} alt="Logo2" className="logo" />
             <p>Protecting what matters most with trusted, tailored insurance solutions.</p>
-            <div className="social-icons">
-              <a href="https://www.facebook.com/MylesCrosthwaiteServices" target="_blank" rel="noreferrer">
-                <FontAwesomeIcon className="icon" icon={faFacebook} />
-              </a>
-
-              <a href="https://www.instagram.com/mcswdhearn/?hl=en" target="_blank" rel="noreferrer">
-                <FontAwesomeIcon className="icon" icon={faInstagram} />
-              </a>
-
-              <a href="https://www.linkedin.com/in/myles-crosthwaite/" target="_blank" rel="noreferrer">
-                <FontAwesomeIcon className="icon" icon={faLinkedin} />
-              </a>
-
-              <a
-                href="https://wa.me/27832684232"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FontAwesomeIcon className="icon" icon={faWhatsapp} />
-              </a>
-            </div>
           </div>
           <div className="footer-content">
             <h4>Quick Links</h4>

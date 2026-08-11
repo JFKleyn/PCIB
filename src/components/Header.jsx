@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, NavLink } from "react-router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
-import logo from "../assets/Logo.png";
+import logo from "../assets/Logo.webp";
 import { useLocation } from "react-router";
 import "./Header.css";
 

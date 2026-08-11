@@ -1,7 +1,7 @@
 import { ContactForm } from "../../components/ContactForm";
 import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
-import { PhoneIcon, EmailIcon, ClockIcon2 } from "../../components/SVGIcons";
+import { PhoneIcon, EmailIcon, ClockIcon2, MobileIcon } from "../../components/SVGIcons";
 import { FadeIn } from "../../components/FadeIn";
 import "./ContactPage.css";
 
@@ -27,6 +27,15 @@ export function ContactPage() {
                   </div>
                   <div className="contact-details-items">
                     <small className="notbold">PHONE</small>
+                    <p className="bold">+27 31 266 8870</p>
+                  </div>
+                </div>
+                <div className="contact-details-item">
+                  <div className="contact-svg">
+                    <MobileIcon />
+                  </div>
+                  <div className="contact-details-items">
+                    <small className="notbold">MOBILE</small>
                     <p className="bold">+27 82 877 7042</p>
                   </div>
                 </div>

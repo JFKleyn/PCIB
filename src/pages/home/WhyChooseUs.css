@@ -46,13 +46,26 @@
 
 @media (min-width: 1024px) {
   .why-choose-us-content{
-  flex-direction: row;
-  justify-content:space-evenly;
+    display: grid;
+  grid-template-columns: 1fr 1fr;
   margin-bottom: 80px;
   margin-top: 80px;
 }
 
+.why-choose-us-content .fade-up {
+    display: flex;
+    justify-content: center;
+}
+
 .why-choose-us-item{
   max-width: 360px;
+}
+}
+
+@media (min-width: 1440px) {
+  .why-choose-us-content{
+    display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
 }
 }
