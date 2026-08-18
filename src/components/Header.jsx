@@ -29,8 +29,6 @@ export function Header() {
 
   function closeMenu() {
     setMenuOpen(false);
-    setMachinesOpen(false);
-    setNewMachinesOpen(false);
   }
 
   return (

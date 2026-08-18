@@ -13,7 +13,6 @@ import PI from "../../assets/PI.webp";
 import PAP from "../../assets/PAP.webp";
 import SI from "../../assets/SI.webp";
 import SAM from "../../assets/SAM.webp";
-import WAD from "../../assets/WAD.webp";
 import CVAF from "../../assets/CVAF.webp";
 import VICS from "../../assets/VICS.webp";
 import PCIBA from "../../assets/PCIBA.webp";
