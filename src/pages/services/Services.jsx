@@ -24,7 +24,7 @@ const services = [
     title: "Business & Office",
     image: BAO,
     content: [
-      "Office insurance protects your business equipment such as computers and documents, and furniture whether you work in office premises or from your home office. Policies are available to protect your business from risks such as theft, fire and water damage, even if the contents are temporarily away from the workplace.",
+      "Protecting your business means protecting the people, property, equipment and operations that keep it running. Our Business & Office Insurance solutions are designed to provide comprehensive cover against a range of risks, including damage to property, loss or theft of business assets, liability claims and other unexpected events. We work with you to tailor cover to your specific business needs, helping you operate with greater confidence and financial security.",
     ],
   },
   {
@@ -32,7 +32,7 @@ const services = [
     title: "Commercial & Industrial",
     image: CAI,
     content: [
-      "Our solutions include the insurance management of Property Management Companies. In addition to providing comprehensive buildings insurance, cover can be extended to include loss of rent or alternative accommodation expenses, previous subsidence to the property, unoccupied properties, listed properties, landlords contents, contents of common parts, employers' liability insurance where required, property owners' liability, legal expenses and tenancy disputes cover, directors and officers' liability, equipment breakdown, and lift insurance and inspection.",
+      "Commercial and industrial operations face a wide range of complex risks that can impact assets, employees, production and business continuity. Our Commercial & Industrial Insurance solutions are designed to provide tailored protection for your premises, equipment, stock, vehicles, liability exposures and other key business assets. We work closely with you to understand your operations and risk profile, providing appropriate cover to help safeguard your business against unforeseen events and minimise potential financial disruption.",
     ],
   },
   {
@@ -40,7 +40,7 @@ const services = [
     title: "Construction",
     image: C,
     content: [
-      "Designed to cover the risks associated with a construction site, be it residential, commercial, civil or mechanical. It typically includes material damage and public liability (bodily injury and/or property damage to third parties). We can also offer Builders Warranty Insurance and Owner Builders Warranty.",
+      "Tailored insurance solutions that safeguard construction projects, contractors, developers, and property owners against unforeseen risks, damage, delays, and liabilities—providing confidence and financial protection from project commencement through to completion.",
     ],
   },
   {
@@ -48,23 +48,23 @@ const services = [
     title: "Cyber and Commercial Crime",
     image: CY,
     content: [
-      "Unfortunately, it is an area of increasing risk with the number of incidents growing every year. There are a range of products available to protect against these exposures. However, no two policies are the same with considerable variances in policy cover. Our recommendation is to seek skilled advice in finding what is right for you.",
+      "Specialised insurance solutions designed to protect businesses against cyber threats, data breaches, fraud, theft, and other forms of commercial crime, helping to mitigate financial losses and safeguard business continuity.",
     ],
   },
   {
     id: "retail",
-    title: "Retail",
+    title: "Retail Business",
     image: R,
     content: [
-      "PCIB provide a complete range of retail insurance solutions for shops of all sizes, from small corner shops to large multi-site retailers. In the fast-moving world of retail, it is vital that your insurance keeps pace with your needs and business growth.",
+      "Comprehensive insurance solutions tailored to protect retail businesses against property damage, theft, liability, business interruption, and other unforeseen risks—helping safeguard your assets, operations, and long-term business continuity.",
     ],
   },
   {
     id: "domestic",
-    title: "Domestic",
+    title: "Domestic Business",
     image: D,
     content: [
-      "Nowadays many insurers are only insuring the straightforward residential policies and are not covering those with contentious issues unless insurers specifically note your particular circumstances as an endorsement on the policy schedule, it will invariably mean that you are not fully protected. We can provide you with competitive insurance quotations from a panel of insurers offering the best product, taking into account your individual circumstances even if these are slightly unusual to give you peace of mind and great value.",
+      "Comprehensive insurance solutions designed to protect your home, private residence, and personal belongings against unforeseen events such as fire, theft, accidental damage, and other insured risks. Tailored to your individual needs, our cover provides peace of mind and financial protection for the property, possessions, and valuable assets that matter most.",
     ],
   },
   {
@@ -72,15 +72,15 @@ const services = [
     title: "Professional Indemnity",
     image: PI,
     content: [
-      "This is essential cover for companies involved in advisory roles. A form of liability insurance that helps protect professional advice and service providing individuals and companies against a claim of negligence by a client. Can also cover, partly or wholly, any damages that may be awarded in such a civil lawsuit. PCIB can arrange comprehensive and competitive packages to suit your needs.",
+      "Specialised insurance designed to protect professionals and their businesses against claims arising from errors, omissions, negligence, or failure to deliver professional services as expected. It provides financial protection against legal costs, damages, and associated liabilities, helping safeguard your reputation and business continuity.",
     ],
   },
   {
     id: "public-and-products",
-    title: "Public & Products",
+    title: "Public & Products Liability & Employers Liability",
     image: PAP,
     content: [
-      "There are numerous types of policies with specific cover that may be appropriate to your occupation. This type of insurance is an essential part of any insurance portfolio as an injury to a third party could cost millions and have severe consequences for your business. PCIB understands the many aspects of Public and Product Liability cover and can evaluate your needs, advise and recommend appropriate solutions.",
+      "Protect your business, your customers and your employees with comprehensive liability cover. Public and Products Liability protects your business against claims for third-party injury or property damage arising from your operations or products, while Employers Liability provides protection against claims relating to injuries or illness suffered by employees in the course of their work. Together, these covers provide essential protection against the unexpected costs of liability claims, helping you operate your business with greater confidence.",
     ],
   },
   {
@@ -93,42 +93,34 @@ const services = [
   },
   {
     id: "shipping-marine",
-    title: "Shipping and Marine",
+    title: "Marine & Goods in Transit",
     image: SAM,
     content: [
-      "We are able to offer the complete range of services for your marine insurance needs, this includes: Full stock throughput policies, Annual declaration cargo policies, One-off specilist shipments, Hull and liability policies, Marina cover, Cover for yachts, motor boats, dinghy's and pleasure craft both individually and for yacht clubs.",
-    ],
-  },
-  {
-    id: "wholesale-and-distribution",
-    title: "Wholesale & Distribution",
-    image: WAD,
-    content: [
-      "Insurance for wholesalers, importers, exporters, warehousing and distribution companies. PCIB strive to provide our clients with the highest quality of independent, expert advice and service to ensure that you get real value for money from your insurance arrangements.",
+      "Protect your cargo throughout its journey with tailored Marine and Goods in Transit Insurance. Whether goods are transported locally or internationally by road, sea, air or rail, this cover helps protect your business against loss or damage while goods are in transit. Designed for businesses that import, export, distribute or transport goods, our solutions provide reliable protection against the risks associated with moving valuable cargo from origin to destination.",
     ],
   },
   {
     id: "commercial-vehicle-and-fleet",
-    title: "Commercial Vehicle and Fleet",
+    title: "Commercial & Private Vehicle Fleets",
     image: CVAF,
     content: [
-      "From small to large fleets most people overlook the main area of fleet management which is the effective and speedy handling of the motor claims that enable your business to get on with your work should an incident occur. We pride ourselves on having a team that efficiently manage your claim to cause you the least disruption.",
+      "Managing multiple vehicles requires more than a standard approach. Our Commercial & Private Vehicle Fleet solutions are designed to provide comprehensive, flexible and professionally structured protection for businesses, individuals and families with multiple vehicles. Whether you operate a commercial fleet or have a number of private vehicles, we take the time to understand your requirements and ensure that your vehicles are appropriately covered. From day-to-day business operations to personal vehicles, our approach is focused on providing reliable protection, streamlined administration and peace of mind. With a tailored fleet solution, you can benefit from simplified management, consistent service and cover designed around your specific vehicle requirements — giving you confidence that your fleet is in capable hands.",
     ],
   },
   {
     id: "vehicle-insurance-credit-shortfall",
-    title: "Vehicle Insurance Credit Shortfall",
+    title: "Vehicle Credit Shortfall",
     image: VICS,
     content: [
-      "We offer credit shortfall cover through Vapsure. The credit shortfall product is directly linked to a vehicle which is comprehensively insured. This product covers the interest owed to the finance house up to a maximum indemnity of R200,000.00.",
+      "Our Vehicle Credit Shortfall solution helps customers bridge the gap when the amount still owed on their existing vehicle finance exceeds the vehicle’s current value. It provides a practical way to manage the outstanding balance while moving into a new vehicle, helping make the transition more affordable and straightforward.",
     ],
   },
   {
     id: "home-and-roadside-assistance",
-    title: "Home and Roadside Assistance",
+    title: "Home and Road Assistance",
     image: PCIBA,
     content: [
-      "These services are available 24 hours a day, 7 days a week, all year round. Should you wish to opt in for this cover, kindly contact our office on 031-266 8870 and speak to any of our underwriters to have this added to your existing policy.",
+      "Our Home & Roadside Assist solution provides customers with added protection and practical support when unexpected problems arise. From assistance with common household emergencies to roadside breakdown support, it helps give customers greater peace of mind and access to help when they need it most.",
     ],
   },
 ];
