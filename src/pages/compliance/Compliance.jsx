@@ -19,11 +19,11 @@ const complianceItems = [
         <p>
           <strong>Policyholder query</strong> is a request to the insurer or the
           intermediary by the policyholder for information regarding the
-          insurer's policies, services or related processes.
+          insurer&apos;s policies, services or related processes.
         </p>
       </>
     ),
-    pdf: "/documents/complaints.pdf",
+    pdf: "/pdfs/COMPLAINTS_MANAGEMENT_FRAMEWORK.pdf",
   },
   {
     id: "conflict",
@@ -37,7 +37,7 @@ const complianceItems = [
         avoids, and discloses conflicts of interest.
       </p>
     ),
-    pdf: "/documents/conflict-of-interest.pdf",
+    pdf: "/pdfs/CONFLICT_OF_INTEREST_MANAGEMENT_POLICY.pdf",
   },
   {
     id: "tcf",
@@ -51,7 +51,7 @@ const complianceItems = [
         treatment and transparency across all client interactions.
       </p>
     ),
-    pdf: "/documents/treating-customers-fairly.pdf",
+    pdf: "/pdfs/TCF_Policy.pdf",
   },
   {
     id: "popi",
@@ -65,7 +65,7 @@ const complianceItems = [
         personal information in line with POPIA requirements.
       </p>
     ),
-    pdf: "/documents/popia.pdf",
+    pdf: "/pdfs/POPI.pdf",
   },
   {
     id: "paia",
@@ -79,14 +79,16 @@ const complianceItems = [
         submitted and processed.
       </p>
     ),
-    pdf: "/documents/paia-manual.pdf",
+    pdf: "/pdfs/PAIA_MANUAL.pdf",
   },
 ];
 
 export function Compliance() {
   const [selectedId, setSelectedId] = useState(complianceItems[0].id);
 
-  const selectedItem = complianceItems.find((item) => item.id === selectedId);
+  const selectedItem = complianceItems.find(
+    (item) => item.id === selectedId
+  );
 
   return (
     <section className="compliance-section">
@@ -120,6 +122,35 @@ export function Compliance() {
 }
 
 function ComplianceCard({ item }) {
+  const handleDownload = async () => {
+    try {
+      const response = await fetch(item.pdf);
+
+      if (!response.ok) {
+        throw new Error("Failed to download PDF");
+      }
+
+      const blob = await response.blob();
+
+      const url = window.URL.createObjectURL(blob);
+
+      const link = document.createElement("a");
+
+      link.href = url;
+      link.download = `${item.title}.pdf`;
+
+      document.body.appendChild(link);
+
+      link.click();
+
+      document.body.removeChild(link);
+
+      window.URL.revokeObjectURL(url);
+    } catch (error) {
+      console.error("PDF download failed:", error);
+    }
+  };
+
   return (
     <div className="compliance-card">
       <h2>{item.title}</h2>
@@ -128,10 +159,14 @@ function ComplianceCard({ item }) {
 
       <div className="compliance-text">{item.content}</div>
 
-      <a href={item.pdf} download className="compliance-download-button">
+      <button
+        type="button"
+        onClick={handleDownload}
+        className="compliance-download-button"
+      >
         <PDFIcon />
         Download PDF
-      </a>
+      </button>
     </div>
   );
 }
