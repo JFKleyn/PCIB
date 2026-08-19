@@ -22,7 +22,7 @@ export function HomeHero() {
       setCurrentImage((prev) =>
         prev === heroImages.length - 1 ? 0 : prev + 1
       );
-    }, 5000);
+    }, 3500);
 
     return () => clearInterval(interval);
   }, []);
