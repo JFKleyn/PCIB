@@ -24,6 +24,20 @@ export function HomePage() {
         />
 
         <link rel="canonical" href="https://www.peterchristieins.co.za/" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "InsuranceAgency",
+            name: "Peter Christie Insurance Brokers",
+            url: "https://www.peterchristieins.co.za/",
+            description:
+              "Peter Christie Insurance Brokers provides commercial, industrial, marine, construction, cyber and domestic insurance solutions.",
+            areaServed: {
+              "@type": "Country",
+              name: "South Africa",
+            },
+          })}
+        </script>
       </Helmet>
       <HomeHero />
       <HomeServices />
