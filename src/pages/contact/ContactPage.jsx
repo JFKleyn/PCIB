@@ -1,13 +1,37 @@
 import { ContactForm } from "../../components/ContactForm";
 import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
-import { PhoneIcon, EmailIcon, ClockIcon2, MobileIcon } from "../../components/SVGIcons";
+import {
+  PhoneIcon,
+  EmailIcon,
+  ClockIcon2,
+  MobileIcon,
+} from "../../components/SVGIcons";
 import { FadeIn } from "../../components/FadeIn";
 import "./ContactPage.css";
+import { Helmet } from "react-helmet-async";
 
 export function ContactPage() {
   return (
     <>
+      <Helmet>
+        <title>Contact Peter Christie Insurance Brokers | Durban</title>
+
+        <meta
+          name="description"
+          content="Contact Peter Christie Insurance Brokers in Durban for professional advice and tailored commercial, business and personal insurance solutions."
+        />
+
+        <meta
+          name="keywords"
+          content="contact insurance broker Durban, insurance brokers Durban, Peter Christie Insurance Brokers, business insurance Durban, personal insurance Durban"
+        />
+
+        <link
+          rel="canonical"
+          href="https://www.peterchristieins.co.za/contact"
+        />
+      </Helmet>
       <Header />
       <div className="contact-section contact-page">
         <div className="section-header">
