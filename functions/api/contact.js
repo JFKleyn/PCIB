@@ -136,7 +136,7 @@ export async function onRequestPost(context) {
 
     // TEST recipient
     response = await send(
-      "RCPT TO:<johan@venturetechnologies.co>",
+      "RCPT TO:<james@peterchristieins.co.za>",
     );
     expect(response, [250, 251]);
 
