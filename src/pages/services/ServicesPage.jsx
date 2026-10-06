@@ -8,7 +8,10 @@ export function ServicesPage() {
   return (
     <>
       <Helmet>
-        <title>Insurance Services | Peter Christie Insurance Brokers</title>
+        <title>
+          Business & Commercial Insurance Durban | Peter Christie Insurance
+          Brokers
+        </title>
 
         <meta
           name="description"

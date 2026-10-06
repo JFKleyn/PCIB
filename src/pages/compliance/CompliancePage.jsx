@@ -14,11 +14,6 @@ export function CompliancePage() {
           content="View compliance information and regulatory documentation for Peter Christie Insurance Brokers, including policies, disclosures and client information."
         />
 
-        <meta
-          name="keywords"
-          content="Peter Christie Insurance Brokers compliance, insurance compliance South Africa, insurance policies, regulatory documentation, insurance broker compliance"
-        />
-
         <link
           rel="canonical"
           href="https://www.peterchristieins.co.za/compliance"

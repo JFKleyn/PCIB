@@ -19,11 +19,6 @@ export function AboutPage() {
           content="Learn more about Peter Christie Insurance Brokers, an experienced Durban-based insurance brokerage providing tailored insurance solutions for businesses and individuals."
         />
 
-        <meta
-          name="keywords"
-          content="Peter Christie Insurance Brokers, insurance brokers Durban, Durban insurance brokerage, South African insurance brokers, business insurance, personal insurance"
-        />
-
         <link rel="canonical" href="https://www.peterchristieins.co.za/about" />
       </Helmet>
       <AboutHero />

@@ -22,11 +22,6 @@ export function ContactPage() {
           content="Contact Peter Christie Insurance Brokers in Durban for professional advice and tailored commercial, business and personal insurance solutions."
         />
 
-        <meta
-          name="keywords"
-          content="contact insurance broker Durban, insurance brokers Durban, Peter Christie Insurance Brokers, business insurance Durban, personal insurance Durban"
-        />
-
         <link
           rel="canonical"
           href="https://www.peterchristieins.co.za/contact"

@@ -43,7 +43,7 @@ export function HomeHero() {
         <div className="hero-overlay"></div>
 
         <div className="hero-header">
-          <img src={logoWhite} alt="Logo" className="logoWhite hero-line" />
+          <img src={logoWhite} alt="Peter Christie Insurance Brokers" className="logoWhite hero-line" />
 
           <h1 className="hero-line">
             TRUSTED ADVICE <br />

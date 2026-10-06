@@ -5,6 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import { ScrollToTop } from "./components/ScrollToTop";
 import { ServicesPage } from "./pages/services/ServicesPage";
 import { CompliancePage } from "./pages/compliance/CompliancePage";
+import { NotFoundPage } from "./pages/not-found/NotFoundPage";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="contact" element={<ContactPage />} />
         <Route path="services" element={<ServicesPage />} />
         <Route path="compliance" element={<CompliancePage />} />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </>
   );
