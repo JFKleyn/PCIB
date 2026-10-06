@@ -1,0 +1,148 @@
+.not-found-page {
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 30px 100px;
+  text-align: center;
+}
+
+.not-found-content {
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.not-found-code {
+  margin: 0 0 10px;
+  font-size: clamp(5rem, 12vw, 9rem);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -4px;
+  color: #002b6c;
+  opacity: 0.15;
+}
+.not-found-content h1 {
+  margin: 0;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: 1px;
+
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: none !important;
+  color: #002b6c;
+}
+
+.not-found-line {
+  width: 60px;
+  height: 3px;
+  margin: 28px 0;
+  background: currentColor;
+}
+
+.not-found-description {
+  max-width: 520px;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.7;
+  opacity: 0.7;
+}
+
+.not-found-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 40px;
+}
+
+.not-found-buttons a {
+  min-width: 180px;
+  padding: 15px 25px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+
+  text-decoration: none;
+
+  border: 1px solid currentColor;
+
+  transition:
+    background-color 0.25s ease,
+    color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.not-found-primary {
+  background: #111;
+  color: #fff;
+  border-color: #111 !important;
+}
+
+.not-found-primary:hover {
+  background: transparent;
+  color: #111;
+  transform: translateY(-2px);
+}
+
+.not-found-secondary {
+  background: transparent;
+  color: #111;
+}
+
+.not-found-secondary:hover {
+  background: #111;
+  color: #fff;
+  border-color: #111;
+  transform: translateY(-2px);
+}
+
+
+/* -------------------------
+   MOBILE
+-------------------------- */
+
+@media (max-width: 600px) {
+  .not-found-page {
+    min-height: 70vh;
+    padding: 100px 20px 70px;
+  }
+
+  .not-found-code {
+    font-size: 5rem;
+    letter-spacing: -2px;
+  }
+
+  .not-found-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .not-found-line {
+    margin: 22px 0;
+  }
+
+  .not-found-description {
+    font-size: 0.95rem;
+  }
+
+  .not-found-buttons {
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 32px;
+  }
+
+  .not-found-buttons a {
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+  }
+}

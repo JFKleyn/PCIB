@@ -10,17 +10,12 @@ export function HomePage() {
     <>
       <Helmet>
         <title>
-          Peter Christie Insurance Brokers | Insurance Brokers Durban
+          Insurance Brokers Durban | Peter Christie Insurance Brokers
         </title>
 
         <meta
           name="description"
-          content="Peter Christie Insurance Brokers provides tailored commercial, industrial, marine, construction, cyber and domestic insurance solutions in Durban and across South Africa."
-        />
-
-        <meta
-          name="keywords"
-          content="insurance brokers Durban, insurance brokers South Africa, commercial insurance, industrial insurance, marine insurance, construction insurance, cyber insurance, domestic insurance, Peter Christie Insurance Brokers"
+          content="Looking for insurance brokers in Durban? Peter Christie Insurance Brokers provides commercial, industrial, marine, construction, cyber and personal insurance across South Africa."
         />
 
         <link rel="canonical" href="https://www.peterchristieins.co.za/" />
@@ -28,14 +23,46 @@ export function HomePage() {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "InsuranceAgency",
+            "@id": "https://www.peterchristieins.co.za/#insuranceagency",
+
             name: "Peter Christie Insurance Brokers",
             url: "https://www.peterchristieins.co.za/",
+
             description:
               "Peter Christie Insurance Brokers provides commercial, industrial, marine, construction, cyber and domestic insurance solutions.",
-            areaServed: {
-              "@type": "Country",
-              name: "South Africa",
-            },
+
+            telephone: "+27 31 266 8870",
+            email: "james@peterchristieins.co.za",
+
+            areaServed: [
+              {
+                "@type": "City",
+                name: "Durban",
+              },
+              {
+                "@type": "AdministrativeArea",
+                name: "KwaZulu-Natal",
+              },
+              {
+                "@type": "Country",
+                name: "South Africa",
+              },
+            ],
+
+            openingHoursSpecification: [
+              {
+                "@type": "OpeningHoursSpecification",
+                dayOfWeek: [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                ],
+                opens: "08:00",
+                closes: "17:00",
+              },
+            ],
           })}
         </script>
       </Helmet>
