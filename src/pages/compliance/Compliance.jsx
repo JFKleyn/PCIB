@@ -81,6 +81,21 @@ const complianceItems = [
     ),
     pdf: "/pdfs/PAIA_MANUAL.pdf",
   },
+  {
+  id: "privacy",
+  label: "Privacy Policy",
+  title: "Privacy Policy",
+  subtitle: "PRIVACY POLICY",
+  heading: "OVERVIEW",
+  content: (
+    <p>
+      This policy outlines how Peter Christie Insurance Brokers collects,
+      uses, stores, and protects personal information, as well as the
+      rights of individuals regarding their personal data.
+    </p>
+  ),
+  pdf: "/pdfs/PRIVACY_POLICY.pdf",
+},
 ];
 
 export function Compliance() {
